@@ -11,18 +11,18 @@ import org.junit.Test;
 
 public class CalculatorModelTest {
     I_CalculatorModel myCalc;
-
+//comentario en el setup
     @Before
     public void setUp() throws Exception {
         myCalc = new CalculatorModel();
     }
-
+    //comentario principio de los test
     // --------------------------------------------------------	
     @Test
     public void t00initVal() {
         assertTrue (myCalc.getResult() == 0);
     }
-
+    // otro comentario en master
     @Test
     public void t00setGet() {
         myCalc.setResult(12);
