@@ -20,11 +20,11 @@ public class AndroidAppMediator extends Application {
 		_model = new CalculatorModel();
         _presenter = new CalculatorPresenter(_model, _view);
 	}
-
+/* Prueba 1*/
     public I_CalculatorPresenter getPresenter(I_CalculatorView view) {
         return _presenter;
     }
-
+/* Prueba2*/
     public I_CalculatorView getView(I_CalculatorPresenter presenter) {
         return _view;
     }
